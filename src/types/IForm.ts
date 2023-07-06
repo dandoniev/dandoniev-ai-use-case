@@ -1,6 +1,6 @@
 export interface IForm {
-    field1: string;
-    field2: string;
-    field3: string;
-    field4: string;
+    name: string;
+    population: string;
+    sortOrder: string;
+    pageSize: string;
 }
