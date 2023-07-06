@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { ICountry } from "../interfaces/ICountry";
+import { ICountry } from "../types/ICountry";
 
 export const useCountries = () => {
     const [countries, setCountries] = useState<ICountry[]>([]);

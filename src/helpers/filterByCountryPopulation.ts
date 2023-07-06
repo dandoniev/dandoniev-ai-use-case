@@ -1,4 +1,4 @@
-import { ICountry } from "../interfaces/ICountry";
+import { ICountry } from "../types/ICountry";
 import { ONE_MILLION } from "../const";
 
 export const filterByCountryPopulation = (countries: ICountry[], population: number) => {
